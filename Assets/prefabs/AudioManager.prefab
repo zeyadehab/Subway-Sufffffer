@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5547697096970928673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1812212882096796247}
+  - component: {fileID: 6995873746671516178}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1812212882096796247
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5547697096970928673}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 226.29999, y: 60.199997, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6995873746671516178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5547697096970928673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 568a786c54fafa34ca07463f7e7192e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MainTheme
+    clip: {fileID: 8300000, guid: 8d065cd1e972af447ab4a65f51a9128b, type: 3}
+    volume: 0.25
+    loop: 1
+    source: {fileID: 0}
+  - name: PickUp
+    clip: {fileID: 8300000, guid: e8e41798785621b4cad4896c86459297, type: 3}
+    volume: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: cab0790503338954e95f733916a9a4fb, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Button
+    clip: {fileID: 8300000, guid: bc729d89860005447853bb5a7e3b6906, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: ' PlayerDied'
+    clip: {fileID: 8300000, guid: f610f1efe2919a843a9f5736f009fab0, type: 3}
+    volume: 0.6
+    loop: 0
+    source: {fileID: 0}
+  - name: NormalBreak
+    clip: {fileID: 8300000, guid: 68d274681ad09b548b8182d3a4edb6d7, type: 3}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: GameCite
+    clip: {fileID: 8300000, guid: 49460ce48ea682446960a10be968072d, type: 3}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Hit
+    clip: {fileID: 8300000, guid: 1eb9a03c73b84f1428a41882edf506a7, type: 3}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: InvalidSelection
+    clip: {fileID: 8300000, guid: 5937b020f243d3f4f9b6ae761137873c, type: 3}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Steps
+    clip: {fileID: 8300000, guid: 2129fe2b665ae0c4a9391fd0ebcbd4eb, type: 3}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Switch
+    clip: {fileID: 8300000, guid: 414d411bdd93a514b96423cd43de610f, type: 3}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Wrong
+    clip: {fileID: 8300000, guid: 52f801e9cdab58c4d9577df539f9bf56, type: 3}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Jet
+    clip: {fileID: 8300000, guid: 764a5bfe82cc7e44889b269b2d2f36ef, type: 3}
+    volume: 0
+    loop: 1
+    source: {fileID: 0}
